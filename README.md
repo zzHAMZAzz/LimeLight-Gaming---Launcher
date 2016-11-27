@@ -10,6 +10,7 @@ This program was coded using C# in Visual Studio 2015. It uses 2 Dlls, including
 ## If this is the source, where is the download?
 
 Riiiighhtt here: [:)](https://mega.nz/#F!dY0GgZCT!qkkICH0GQdj4ibqs_lz2Wg)
+Also riiiiigghhtt here is the Virus Total scan for my complied version: [:)](https://www.virustotal.com/en/file/f0aa5c966ce34cd1161230314f301592039a0a4a1fe2ce1d2225af2a4eb34a7d/analysis/1480210183/)
 
 ## Overall Change Log
 
