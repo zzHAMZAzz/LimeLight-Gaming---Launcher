@@ -14,4 +14,5 @@ Riiiighhtt here: [:)](https://mega.nz/#F!dY0GgZCT!qkkICH0GQdj4ibqs_lz2Wg)
 ## Overall Change Log
 
 V1 - Initial Release
+
 V1.1 - Complied into a single EXE using Illmerge (no longer needing the MetroFramework Dll with it)
