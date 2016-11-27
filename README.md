@@ -10,3 +10,8 @@ This program was coded using C# in Visual Studio 2015. It uses 2 Dlls, including
 ## If this is the source, where is the download?
 
 Riiiighhtt here: [:)](https://mega.nz/#F!dY0GgZCT!qkkICH0GQdj4ibqs_lz2Wg)
+
+## Overall Change Log
+
+V1 - Initial Release
+V1.1 - Complied into a single EXE using Illmerge (no longer needing the MetroFramework Dll with it)
