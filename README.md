@@ -17,3 +17,5 @@ Also riiiiigghhtt here is the Virus Total scan for my complied version: [Version
 V1 - Initial Release
 
 V1.1 - Complied into a single EXE using Illmerge (no longer needing the MetroFramework Dll with it)
+
+V1.2 - Version 1.2, brings in a scroll bar at the bottom for latest news and information regarding Limelight Gaming, this can be updated at anytime without requiring a program update. A updater is now in the program meaning whenever a newer version is available, the user will be notified at program launch. Finally all static images are stored locally, excpet server banners for obvious reasons
