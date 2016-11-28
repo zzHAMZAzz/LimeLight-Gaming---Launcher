@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,6 +8,8 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,29 +19,65 @@ namespace LimeLight_Gaming___Unofficial_Launcher
 {
     public partial class Main : MetroFramework.Forms.MetroForm
     {
+        int XCounter = 0;
+
         public Main()
         {
             InitializeComponent();
 
             StyleManager = msmMain;
+
+       //     AllocConsole();
+
+            Scrollbar();
         }
+       // *TO OPEN CONSOLE ON LAUNCH*
+
+       // [DllImport("kernel32.dll", SetLastError = true)]
+       // [return: MarshalAs(UnmanagedType.Bool)]
+       // static extern bool AllocConsole();
 
         private void Form1_Load(object sender, EventArgs e)
         {
             msmMain.Theme = MetroFramework.MetroThemeStyle.Dark;
             msmMain.Style = (MetroFramework.MetroColorStyle)7;
             pictureBox3.ImageLocation = "https://limelightgaming.net/forums/images/banner/gt.php?url=aHR0cDovL2NhY2hlLnd3dy5nYW1ldHJhY2tlci5jb20vc2VydmVyX2luZm8vNTEuMjU0LjU3LjEzMzoyNzAzMC9iXzM1MF8yMF82OTIxMDhfMzgxMDA3X0ZGRkZGRl8wMDAwMDAucG5n";
+            string currentversion = Properties.Settings.Default.version;
+            System.Net.WebClient wc = new System.Net.WebClient();
+            byte[] raw = wc.DownloadData("http://pastebin.com/raw/PZg7Jwm7");
+           
+            string webData = Encoding.UTF8.GetString(raw);
+            lblScroll.Text = "     " + webData;
 
-            
+            if (lblScroll.Text.Contains(currentversion))
+            {
+
+            }
+            else
+            {
+                string updatemessage = "A New Update Is Available, Would You Like To Download It Now?";
+                string updatecaption = "Update Available";
+                MessageBoxButtons updatebuttons = MessageBoxButtons.YesNo;
+                DialogResult result;
+
+                result = MessageBox.Show(updatemessage, updatecaption, updatebuttons);
+
+                if (result == System.Windows.Forms.DialogResult.Yes)
+                {
+                    Process.Start("https://mega.nz/#F!dY0GgZCT!qkkICH0GQdj4ibqs_lz2Wg");
+                    Environment.Exit(0);
+
+                }
+                
+                    
+            }
 
 
         }
 
-
-
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void metroLabel1_Click(object sender, EventArgs e)
@@ -175,6 +214,48 @@ namespace LimeLight_Gaming___Unofficial_Launcher
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void server3panel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblScroll.ForeColor = Color.Red;
+            if (lblScroll.Location.X == 0)
+            {
+                XCounter = 0;
+                lblScroll.Location = new Point(pnlScroll.Width - XCounter, lblScroll.Location.Y);
+                XCounter++;
+            }
+            else
+            {
+                lblScroll.Location = new Point(pnlScroll.Width - XCounter, lblScroll.Location.Y);
+                XCounter++;
+            }
+        }
+
+        private void Scrollbar()
+        {
+            
+            tmScroll.Start();
+        }
+
+        private void richTextBox1_TextChanged_1(object sender, EventArgs e)
         {
 
         }

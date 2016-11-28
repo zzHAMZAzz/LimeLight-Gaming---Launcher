@@ -115,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imageedit_2_6126716718.ico" />
+    <None Include="Resources\no internet connection.jpg" />
+    <None Include="Resources\hero1.jpg" />
+    <None Include="Resources\header.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
