@@ -115,7 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="imageedit_2_6126716718.ico" />
-    <None Include="Resources\no internet connection.jpg" />
+    <None Include="Resources\3796317_orig.jpg" />
     <None Include="Resources\hero1.jpg" />
     <None Include="Resources\header.jpg" />
   </ItemGroup>

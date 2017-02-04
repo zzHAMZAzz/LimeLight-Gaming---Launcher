@@ -41,7 +41,6 @@ namespace LimeLight_Gaming___Unofficial_Launcher
         {
             msmMain.Theme = MetroFramework.MetroThemeStyle.Dark;
             msmMain.Style = (MetroFramework.MetroColorStyle)7;
-            pictureBox3.ImageLocation = "https://limelightgaming.net/forums/images/banner/gt.php?url=aHR0cDovL2NhY2hlLnd3dy5nYW1ldHJhY2tlci5jb20vc2VydmVyX2luZm8vNTEuMjU0LjU3LjEzMzoyNzAzMC9iXzM1MF8yMF82OTIxMDhfMzgxMDA3X0ZGRkZGRl8wMDAwMDAucG5n";
             string currentversion = Properties.Settings.Default.version;
             System.Net.WebClient wc = new System.Net.WebClient();
             byte[] raw = wc.DownloadData("http://pastebin.com/raw/PZg7Jwm7");
@@ -120,6 +119,7 @@ namespace LimeLight_Gaming___Unofficial_Launcher
             server1panel.Show();
             server2panel.Hide();
             server3panel.Hide();
+            serverPanel4.Hide();
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -152,7 +152,8 @@ namespace LimeLight_Gaming___Unofficial_Launcher
             server2panel.Show();
             server1panel.Hide();
             server3panel.Hide();
-            
+            serverPanel4.Hide();
+
         }
 
         private void metroTile3_Click(object sender, EventArgs e)
@@ -160,6 +161,7 @@ namespace LimeLight_Gaming___Unofficial_Launcher
             server1panel.Hide();
             server2panel.Hide();
             server3panel.Show();
+            serverPanel4.Hide();
         }
 
         private void metroLabel3_Click(object sender, EventArgs e)
@@ -258,6 +260,24 @@ namespace LimeLight_Gaming___Unofficial_Launcher
         private void richTextBox1_TextChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void metroTile4_Click(object sender, EventArgs e)
+        {
+            server1panel.Hide();
+            server2panel.Hide();
+            server3panel.Hide();
+            serverPanel4.Show();
+        }
+
+        private void metroLabel14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
+            Process.Start("steam://connect/164.132.204.129:27016");
         }
     }
 }

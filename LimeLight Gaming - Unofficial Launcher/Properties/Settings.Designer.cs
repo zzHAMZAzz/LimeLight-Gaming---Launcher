@@ -25,7 +25,7 @@ namespace LimeLight_Gaming___Unofficial_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1.2,")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1.2.5,")]
         public string version {
             get {
                 return ((string)(this["version"]));
