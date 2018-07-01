@@ -37,24 +37,36 @@
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.metroLabel16 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel15 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel12 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel11 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel10 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.metroTabPage4 = new MetroFramework.Controls.MetroTabPage();
+            this.metroTile4 = new MetroFramework.Controls.MetroTile();
+            this.metroTile3 = new MetroFramework.Controls.MetroTile();
+            this.metroTile2 = new MetroFramework.Controls.MetroTile();
+            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.server2panel = new MetroFramework.Controls.MetroPanel();
+            this.rockbuildIMG = new System.Windows.Forms.PictureBox();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.serverPanel4 = new MetroFramework.Controls.MetroPanel();
+            this.metroButton3 = new MetroFramework.Controls.MetroButton();
+            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
+            this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.server3panel = new MetroFramework.Controls.MetroPanel();
             this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.metroLabel7 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
-            this.metroTile3 = new MetroFramework.Controls.MetroTile();
-            this.metroTile2 = new MetroFramework.Controls.MetroTile();
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.server1panel = new MetroFramework.Controls.MetroPanel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.metroTabPage5 = new MetroFramework.Controls.MetroTabPage();
             this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
@@ -66,33 +78,30 @@
             this.tmScroll = new System.Windows.Forms.Timer(this.components);
             this.pnlScroll = new System.Windows.Forms.Panel();
             this.lblScroll = new MetroFramework.Controls.MetroLabel();
-            this.metroTile4 = new MetroFramework.Controls.MetroTile();
-            this.serverPanel4 = new MetroFramework.Controls.MetroPanel();
-            this.metroButton3 = new MetroFramework.Controls.MetroButton();
-            this.metroLabel13 = new MetroFramework.Controls.MetroLabel();
-            this.metroLabel14 = new MetroFramework.Controls.MetroLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.rockRPIMG = new System.Windows.Forms.PictureBox();
+            this.discordIMG = new System.Windows.Forms.PictureBox();
+            this.tsIMG = new System.Windows.Forms.PictureBox();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage3.SuspendLayout();
             this.metroPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.metroTabPage4.SuspendLayout();
             this.server2panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rockbuildIMG)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.serverPanel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.server3panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.server1panel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.metroTabPage5.SuspendLayout();
             this.pnlScroll.SuspendLayout();
-            this.serverPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rockRPIMG)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.discordIMG)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tsIMG)).BeginInit();
             this.SuspendLayout();
             // 
             // metroButton1
@@ -123,7 +132,7 @@
             this.metroLabel2.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
             this.metroLabel2.Location = new System.Drawing.Point(14, 40);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(292, 137);
+            this.metroLabel2.Size = new System.Drawing.Size(292, 156);
             this.metroLabel2.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel2.StyleManager = this.msmMain;
             this.metroLabel2.TabIndex = 3;
@@ -142,11 +151,11 @@
             this.metroLabel1.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
             this.metroLabel1.Location = new System.Drawing.Point(121, 0);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(243, 25);
+            this.metroLabel1.Size = new System.Drawing.Size(248, 25);
             this.metroLabel1.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel1.StyleManager = this.msmMain;
             this.metroLabel1.TabIndex = 0;
-            this.metroLabel1.Text = "EvoCity V4B1 - Roleplay Server";
+            this.metroLabel1.Text = "Rockford V2B - Roleplay Server";
             this.metroLabel1.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel1.UseStyleColors = true;
             // 
@@ -196,7 +205,8 @@
             // metroPanel1
             // 
             this.metroPanel1.BackColor = System.Drawing.Color.Black;
-            this.metroPanel1.Controls.Add(this.richTextBox1);
+            this.metroPanel1.Controls.Add(this.metroLabel16);
+            this.metroPanel1.Controls.Add(this.metroLabel15);
             this.metroPanel1.Controls.Add(this.metroLabel12);
             this.metroPanel1.Controls.Add(this.metroLabel11);
             this.metroPanel1.Controls.Add(this.metroLabel10);
@@ -218,15 +228,42 @@
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // richTextBox1
+            // metroLabel16
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(253, 192);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(100, 96);
-            this.richTextBox1.TabIndex = 7;
-            this.richTextBox1.Text = "";
-            this.richTextBox1.Visible = false;
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged_1);
+            this.metroLabel16.AutoSize = true;
+            this.metroLabel16.CustomBackground = false;
+            this.metroLabel16.CustomForeColor = false;
+            this.metroLabel16.FontSize = MetroFramework.MetroLabelSize.Medium;
+            this.metroLabel16.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel16.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel16.Location = new System.Drawing.Point(18, 207);
+            this.metroLabel16.Name = "metroLabel16";
+            this.metroLabel16.Size = new System.Drawing.Size(168, 19);
+            this.metroLabel16.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel16.StyleManager = this.msmMain;
+            this.metroLabel16.TabIndex = 10;
+            this.metroLabel16.Text = "• Something new, perhaps?";
+            this.metroLabel16.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel16.UseStyleColors = false;
+            // 
+            // metroLabel15
+            // 
+            this.metroLabel15.AutoSize = true;
+            this.metroLabel15.CustomBackground = false;
+            this.metroLabel15.CustomForeColor = false;
+            this.metroLabel15.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel15.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel15.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel15.Location = new System.Drawing.Point(13, 178);
+            this.metroLabel15.Name = "metroLabel15";
+            this.metroLabel15.Size = new System.Drawing.Size(116, 25);
+            this.metroLabel15.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel15.StyleManager = this.msmMain;
+            this.metroLabel15.TabIndex = 9;
+            this.metroLabel15.Text = "Coming Soon";
+            this.metroLabel15.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel15.UseStyleColors = true;
+            this.metroLabel15.Click += new System.EventHandler(this.metroLabel15_Click);
             // 
             // metroLabel12
             // 
@@ -236,13 +273,14 @@
             this.metroLabel12.FontSize = MetroFramework.MetroLabelSize.Medium;
             this.metroLabel12.FontWeight = MetroFramework.MetroLabelWeight.Light;
             this.metroLabel12.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel12.Location = new System.Drawing.Point(18, 136);
+            this.metroLabel12.Location = new System.Drawing.Point(18, 111);
             this.metroLabel12.Name = "metroLabel12";
-            this.metroLabel12.Size = new System.Drawing.Size(377, 38);
+            this.metroLabel12.Size = new System.Drawing.Size(278, 57);
             this.metroLabel12.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel12.StyleManager = this.msmMain;
             this.metroLabel12.TabIndex = 6;
-            this.metroLabel12.Text = "*Latest updates on the start screen using the Limelight Gaming \r\n  Update API";
+            this.metroLabel12.Text = "• Now uses forum colour scheme\r\n• Fixed all servers (removing old, adding new)\r\n•" +
+    " Removed radio player (obsolete I guess?)";
             this.metroLabel12.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel12.UseStyleColors = false;
             // 
@@ -254,13 +292,13 @@
             this.metroLabel11.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel11.FontWeight = MetroFramework.MetroLabelWeight.Light;
             this.metroLabel11.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel11.Location = new System.Drawing.Point(16, 107);
+            this.metroLabel11.Location = new System.Drawing.Point(13, 82);
             this.metroLabel11.Name = "metroLabel11";
-            this.metroLabel11.Size = new System.Drawing.Size(116, 25);
+            this.metroLabel11.Size = new System.Drawing.Size(101, 25);
             this.metroLabel11.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel11.StyleManager = this.msmMain;
             this.metroLabel11.TabIndex = 5;
-            this.metroLabel11.Text = "Coming Soon";
+            this.metroLabel11.Text = "What\'s New";
             this.metroLabel11.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel11.UseStyleColors = true;
             // 
@@ -272,7 +310,7 @@
             this.metroLabel10.FontSize = MetroFramework.MetroLabelSize.Medium;
             this.metroLabel10.FontWeight = MetroFramework.MetroLabelWeight.Light;
             this.metroLabel10.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel10.Location = new System.Drawing.Point(18, 25);
+            this.metroLabel10.Location = new System.Drawing.Point(18, 29);
             this.metroLabel10.Name = "metroLabel10";
             this.metroLabel10.Size = new System.Drawing.Size(363, 38);
             this.metroLabel10.Style = MetroFramework.MetroColorStyle.Blue;
@@ -291,7 +329,7 @@
             this.metroLabel9.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Light;
             this.metroLabel9.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel9.Location = new System.Drawing.Point(16, 0);
+            this.metroLabel9.Location = new System.Drawing.Point(13, 0);
             this.metroLabel9.Name = "metroLabel9";
             this.metroLabel9.Size = new System.Drawing.Size(82, 25);
             this.metroLabel9.Style = MetroFramework.MetroColorStyle.Blue;
@@ -301,16 +339,30 @@
             this.metroLabel9.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel9.UseStyleColors = true;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox6.Image = global::LimeLight_Gaming_Launcher.Properties.Resources.swat_cropped;
+            this.pictureBox6.ImageLocation = "";
+            this.pictureBox6.Location = new System.Drawing.Point(391, 23);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(302, 311);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 2;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
             // metroTabPage4
             // 
-            this.metroTabPage4.Controls.Add(this.server2panel);
-            this.metroTabPage4.Controls.Add(this.serverPanel4);
             this.metroTabPage4.Controls.Add(this.metroTile4);
-            this.metroTabPage4.Controls.Add(this.server3panel);
             this.metroTabPage4.Controls.Add(this.metroTile3);
             this.metroTabPage4.Controls.Add(this.metroTile2);
             this.metroTabPage4.Controls.Add(this.metroTile1);
+            this.metroTabPage4.Controls.Add(this.server3panel);
             this.metroTabPage4.Controls.Add(this.server1panel);
+            this.metroTabPage4.Controls.Add(this.server2panel);
+            this.metroTabPage4.Controls.Add(this.serverPanel4);
             this.metroTabPage4.CustomBackground = false;
             this.metroTabPage4.HorizontalScrollbar = false;
             this.metroTabPage4.HorizontalScrollbarBarColor = true;
@@ -330,8 +382,77 @@
             this.metroTabPage4.VerticalScrollbarSize = 10;
             this.metroTabPage4.Click += new System.EventHandler(this.metroTabPage4_Click);
             // 
+            // metroTile4
+            // 
+            this.metroTile4.ActiveControl = null;
+            this.metroTile4.CustomBackground = false;
+            this.metroTile4.CustomForeColor = false;
+            this.metroTile4.Location = new System.Drawing.Point(110, 17);
+            this.metroTile4.Name = "metroTile4";
+            this.metroTile4.PaintTileCount = true;
+            this.metroTile4.Size = new System.Drawing.Size(93, 87);
+            this.metroTile4.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTile4.StyleManager = null;
+            this.metroTile4.TabIndex = 6;
+            this.metroTile4.Text = "Discord";
+            this.metroTile4.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.metroTile4.TileCount = 0;
+            this.metroTile4.Click += new System.EventHandler(this.metroTile4_Click);
+            // 
+            // metroTile3
+            // 
+            this.metroTile3.ActiveControl = null;
+            this.metroTile3.CustomBackground = false;
+            this.metroTile3.CustomForeColor = false;
+            this.metroTile3.Location = new System.Drawing.Point(110, 110);
+            this.metroTile3.Name = "metroTile3";
+            this.metroTile3.PaintTileCount = true;
+            this.metroTile3.Size = new System.Drawing.Size(93, 87);
+            this.metroTile3.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTile3.StyleManager = this.msmMain;
+            this.metroTile3.TabIndex = 4;
+            this.metroTile3.Text = "TeamSpeak";
+            this.metroTile3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTile3.TileCount = 0;
+            this.metroTile3.Click += new System.EventHandler(this.metroTile3_Click);
+            // 
+            // metroTile2
+            // 
+            this.metroTile2.ActiveControl = null;
+            this.metroTile2.CustomBackground = false;
+            this.metroTile2.CustomForeColor = false;
+            this.metroTile2.Location = new System.Drawing.Point(11, 203);
+            this.metroTile2.Name = "metroTile2";
+            this.metroTile2.PaintTileCount = true;
+            this.metroTile2.Size = new System.Drawing.Size(192, 87);
+            this.metroTile2.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTile2.StyleManager = this.msmMain;
+            this.metroTile2.TabIndex = 3;
+            this.metroTile2.Text = "Build";
+            this.metroTile2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTile2.TileCount = 0;
+            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
+            // 
+            // metroTile1
+            // 
+            this.metroTile1.ActiveControl = null;
+            this.metroTile1.CustomBackground = true;
+            this.metroTile1.CustomForeColor = false;
+            this.metroTile1.Location = new System.Drawing.Point(11, 17);
+            this.metroTile1.Name = "metroTile1";
+            this.metroTile1.PaintTileCount = true;
+            this.metroTile1.Size = new System.Drawing.Size(93, 180);
+            this.metroTile1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroTile1.StyleManager = this.msmMain;
+            this.metroTile1.TabIndex = 2;
+            this.metroTile1.Text = "Roleplay";
+            this.metroTile1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroTile1.TileCount = 0;
+            this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
+            // 
             // server2panel
             // 
+            this.server2panel.Controls.Add(this.rockbuildIMG);
             this.server2panel.Controls.Add(this.metroButton2);
             this.server2panel.Controls.Add(this.metroLabel3);
             this.server2panel.Controls.Add(this.metroLabel4);
@@ -352,6 +473,16 @@
             this.server2panel.VerticalScrollbarBarColor = true;
             this.server2panel.VerticalScrollbarHighlightOnWheel = false;
             this.server2panel.VerticalScrollbarSize = 10;
+            // 
+            // rockbuildIMG
+            // 
+            this.rockbuildIMG.ImageLocation = "";
+            this.rockbuildIMG.Location = new System.Drawing.Point(70, 286);
+            this.rockbuildIMG.Name = "rockbuildIMG";
+            this.rockbuildIMG.Size = new System.Drawing.Size(350, 20);
+            this.rockbuildIMG.TabIndex = 5;
+            this.rockbuildIMG.TabStop = false;
+            this.rockbuildIMG.Click += new System.EventHandler(this.rockbuildIMG_Click);
             // 
             // metroButton2
             // 
@@ -394,16 +525,115 @@
             this.metroLabel4.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
             this.metroLabel4.Location = new System.Drawing.Point(142, 0);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(164, 25);
+            this.metroLabel4.Size = new System.Drawing.Size(169, 25);
             this.metroLabel4.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel4.StyleManager = this.msmMain;
             this.metroLabel4.TabIndex = 0;
-            this.metroLabel4.Text = "EvoCity V4B1 - Build";
+            this.metroLabel4.Text = "Rockford V2B - Build";
             this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel4.UseStyleColors = true;
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::LimeLight_Gaming_Launcher.Properties.Resources.rockford;
+            this.pictureBox5.Location = new System.Drawing.Point(312, 40);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(166, 156);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // serverPanel4
+            // 
+            this.serverPanel4.Controls.Add(this.discordIMG);
+            this.serverPanel4.Controls.Add(this.metroButton3);
+            this.serverPanel4.Controls.Add(this.metroLabel14);
+            this.serverPanel4.Controls.Add(this.pictureBox3);
+            this.serverPanel4.Controls.Add(this.metroLabel13);
+            this.serverPanel4.CustomBackground = false;
+            this.serverPanel4.HorizontalScrollbar = false;
+            this.serverPanel4.HorizontalScrollbarBarColor = true;
+            this.serverPanel4.HorizontalScrollbarHighlightOnWheel = false;
+            this.serverPanel4.HorizontalScrollbarSize = 10;
+            this.serverPanel4.Location = new System.Drawing.Point(222, 17);
+            this.serverPanel4.Name = "serverPanel4";
+            this.serverPanel4.Size = new System.Drawing.Size(488, 314);
+            this.serverPanel4.Style = MetroFramework.MetroColorStyle.Blue;
+            this.serverPanel4.StyleManager = this.msmMain;
+            this.serverPanel4.TabIndex = 9;
+            this.serverPanel4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.serverPanel4.VerticalScrollbar = false;
+            this.serverPanel4.VerticalScrollbarBarColor = true;
+            this.serverPanel4.VerticalScrollbarHighlightOnWheel = false;
+            this.serverPanel4.VerticalScrollbarSize = 10;
+            // 
+            // metroButton3
+            // 
+            this.metroButton3.Highlight = false;
+            this.metroButton3.Location = new System.Drawing.Point(208, 257);
+            this.metroButton3.Name = "metroButton3";
+            this.metroButton3.Size = new System.Drawing.Size(75, 23);
+            this.metroButton3.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroButton3.StyleManager = this.msmMain;
+            this.metroButton3.TabIndex = 4;
+            this.metroButton3.Text = "Connect!";
+            this.metroButton3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click_1);
+            // 
+            // metroLabel13
+            // 
+            this.metroLabel13.CustomBackground = false;
+            this.metroLabel13.CustomForeColor = false;
+            this.metroLabel13.FontSize = MetroFramework.MetroLabelSize.Medium;
+            this.metroLabel13.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel13.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel13.Location = new System.Drawing.Point(14, 40);
+            this.metroLabel13.Name = "metroLabel13";
+            this.metroLabel13.Size = new System.Drawing.Size(292, 137);
+            this.metroLabel13.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel13.StyleManager = this.msmMain;
+            this.metroLabel13.TabIndex = 3;
+            this.metroLabel13.Text = "Check out the Official Limelight Gaming Discord \r\nchannel, a place to talk and ty" +
+    "pe about all the \r\nnew updates, announcments and more!";
+            this.metroLabel13.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel13.UseStyleColors = false;
+            this.metroLabel13.Click += new System.EventHandler(this.metroLabel13_Click);
+            // 
+            // metroLabel14
+            // 
+            this.metroLabel14.AutoSize = true;
+            this.metroLabel14.CustomBackground = false;
+            this.metroLabel14.CustomForeColor = false;
+            this.metroLabel14.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel14.FontWeight = MetroFramework.MetroLabelWeight.Light;
+            this.metroLabel14.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
+            this.metroLabel14.Location = new System.Drawing.Point(180, 0);
+            this.metroLabel14.Name = "metroLabel14";
+            this.metroLabel14.Size = new System.Drawing.Size(122, 25);
+            this.metroLabel14.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel14.StyleManager = this.msmMain;
+            this.metroLabel14.TabIndex = 0;
+            this.metroLabel14.Text = "Discord Server";
+            this.metroLabel14.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroLabel14.UseStyleColors = true;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.ErrorImage = null;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.ImageLocation = "";
+            this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
+            this.pictureBox3.Location = new System.Drawing.Point(312, 40);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(166, 156);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 1;
+            this.pictureBox3.TabStop = false;
+            // 
             // server3panel
             // 
+            this.server3panel.Controls.Add(this.tsIMG);
             this.server3panel.Controls.Add(this.metroButton4);
             this.server3panel.Controls.Add(this.metroLabel7);
             this.server3panel.Controls.Add(this.metroLabel8);
@@ -476,59 +706,20 @@
             this.metroLabel8.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.metroLabel8.UseStyleColors = true;
             // 
-            // metroTile3
+            // pictureBox9
             // 
-            this.metroTile3.ActiveControl = null;
-            this.metroTile3.CustomBackground = false;
-            this.metroTile3.CustomForeColor = false;
-            this.metroTile3.Location = new System.Drawing.Point(110, 110);
-            this.metroTile3.Name = "metroTile3";
-            this.metroTile3.PaintTileCount = true;
-            this.metroTile3.Size = new System.Drawing.Size(93, 87);
-            this.metroTile3.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile3.StyleManager = this.msmMain;
-            this.metroTile3.TabIndex = 4;
-            this.metroTile3.Text = "TeamSpeak";
-            this.metroTile3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTile3.TileCount = 0;
-            this.metroTile3.Click += new System.EventHandler(this.metroTile3_Click);
-            // 
-            // metroTile2
-            // 
-            this.metroTile2.ActiveControl = null;
-            this.metroTile2.CustomBackground = false;
-            this.metroTile2.CustomForeColor = false;
-            this.metroTile2.Location = new System.Drawing.Point(11, 203);
-            this.metroTile2.Name = "metroTile2";
-            this.metroTile2.PaintTileCount = true;
-            this.metroTile2.Size = new System.Drawing.Size(192, 87);
-            this.metroTile2.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile2.StyleManager = this.msmMain;
-            this.metroTile2.TabIndex = 3;
-            this.metroTile2.Text = "Build";
-            this.metroTile2.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTile2.TileCount = 0;
-            this.metroTile2.Click += new System.EventHandler(this.metroTile2_Click);
-            // 
-            // metroTile1
-            // 
-            this.metroTile1.ActiveControl = null;
-            this.metroTile1.CustomBackground = true;
-            this.metroTile1.CustomForeColor = false;
-            this.metroTile1.Location = new System.Drawing.Point(11, 17);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.PaintTileCount = true;
-            this.metroTile1.Size = new System.Drawing.Size(93, 180);
-            this.metroTile1.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile1.StyleManager = this.msmMain;
-            this.metroTile1.TabIndex = 2;
-            this.metroTile1.Text = "Roleplay";
-            this.metroTile1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroTile1.TileCount = 0;
-            this.metroTile1.Click += new System.EventHandler(this.metroTile1_Click);
+            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox9.Image = global::LimeLight_Gaming_Launcher.Properties.Resources.teamspeak;
+            this.pictureBox9.Location = new System.Drawing.Point(312, 40);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(166, 156);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 1;
+            this.pictureBox9.TabStop = false;
             // 
             // server1panel
             // 
+            this.server1panel.Controls.Add(this.rockRPIMG);
             this.server1panel.Controls.Add(this.metroButton1);
             this.server1panel.Controls.Add(this.metroLabel2);
             this.server1panel.Controls.Add(this.metroLabel1);
@@ -550,6 +741,16 @@
             this.server1panel.VerticalScrollbarHighlightOnWheel = false;
             this.server1panel.VerticalScrollbarSize = 10;
             this.server1panel.Paint += new System.Windows.Forms.PaintEventHandler(this.metroPanel1_Paint_1);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::LimeLight_Gaming_Launcher.Properties.Resources.rockford;
+            this.pictureBox2.Location = new System.Drawing.Point(312, 40);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(166, 156);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // metroTabPage5
             // 
@@ -722,160 +923,44 @@
             this.lblScroll.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.lblScroll.UseStyleColors = false;
             // 
-            // metroTile4
-            // 
-            this.metroTile4.ActiveControl = null;
-            this.metroTile4.CustomBackground = false;
-            this.metroTile4.CustomForeColor = false;
-            this.metroTile4.Location = new System.Drawing.Point(110, 17);
-            this.metroTile4.Name = "metroTile4";
-            this.metroTile4.PaintTileCount = true;
-            this.metroTile4.Size = new System.Drawing.Size(93, 87);
-            this.metroTile4.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroTile4.StyleManager = null;
-            this.metroTile4.TabIndex = 6;
-            this.metroTile4.Text = "Space \r\nEngineers";
-            this.metroTile4.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.metroTile4.TileCount = 0;
-            this.metroTile4.Click += new System.EventHandler(this.metroTile4_Click);
-            // 
-            // serverPanel4
-            // 
-            this.serverPanel4.Controls.Add(this.metroButton3);
-            this.serverPanel4.Controls.Add(this.metroLabel13);
-            this.serverPanel4.Controls.Add(this.metroLabel14);
-            this.serverPanel4.Controls.Add(this.pictureBox3);
-            this.serverPanel4.CustomBackground = false;
-            this.serverPanel4.HorizontalScrollbar = false;
-            this.serverPanel4.HorizontalScrollbarBarColor = true;
-            this.serverPanel4.HorizontalScrollbarHighlightOnWheel = false;
-            this.serverPanel4.HorizontalScrollbarSize = 10;
-            this.serverPanel4.Location = new System.Drawing.Point(222, 17);
-            this.serverPanel4.Name = "serverPanel4";
-            this.serverPanel4.Size = new System.Drawing.Size(488, 292);
-            this.serverPanel4.Style = MetroFramework.MetroColorStyle.Blue;
-            this.serverPanel4.StyleManager = this.msmMain;
-            this.serverPanel4.TabIndex = 9;
-            this.serverPanel4.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.serverPanel4.VerticalScrollbar = false;
-            this.serverPanel4.VerticalScrollbarBarColor = true;
-            this.serverPanel4.VerticalScrollbarHighlightOnWheel = false;
-            this.serverPanel4.VerticalScrollbarSize = 10;
-            // 
-            // metroButton3
-            // 
-            this.metroButton3.Highlight = false;
-            this.metroButton3.Location = new System.Drawing.Point(208, 257);
-            this.metroButton3.Name = "metroButton3";
-            this.metroButton3.Size = new System.Drawing.Size(75, 23);
-            this.metroButton3.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroButton3.StyleManager = this.msmMain;
-            this.metroButton3.TabIndex = 4;
-            this.metroButton3.Text = "Connect!";
-            this.metroButton3.Theme = MetroFramework.MetroThemeStyle.Dark;
-            // 
-            // metroLabel13
-            // 
-            this.metroLabel13.CustomBackground = false;
-            this.metroLabel13.CustomForeColor = false;
-            this.metroLabel13.FontSize = MetroFramework.MetroLabelSize.Medium;
-            this.metroLabel13.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel13.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel13.Location = new System.Drawing.Point(14, 40);
-            this.metroLabel13.Name = "metroLabel13";
-            this.metroLabel13.Size = new System.Drawing.Size(292, 137);
-            this.metroLabel13.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel13.StyleManager = this.msmMain;
-            this.metroLabel13.TabIndex = 3;
-            this.metroLabel13.Text = "Description Text Coming Soon";
-            this.metroLabel13.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel13.UseStyleColors = false;
-            // 
-            // metroLabel14
-            // 
-            this.metroLabel14.AutoSize = true;
-            this.metroLabel14.CustomBackground = false;
-            this.metroLabel14.CustomForeColor = false;
-            this.metroLabel14.FontSize = MetroFramework.MetroLabelSize.Tall;
-            this.metroLabel14.FontWeight = MetroFramework.MetroLabelWeight.Light;
-            this.metroLabel14.LabelMode = MetroFramework.Controls.MetroLabelMode.Default;
-            this.metroLabel14.Location = new System.Drawing.Point(180, 0);
-            this.metroLabel14.Name = "metroLabel14";
-            this.metroLabel14.Size = new System.Drawing.Size(136, 25);
-            this.metroLabel14.Style = MetroFramework.MetroColorStyle.Blue;
-            this.metroLabel14.StyleManager = this.msmMain;
-            this.metroLabel14.TabIndex = 0;
-            this.metroLabel14.Text = "Space Engineers";
-            this.metroLabel14.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroLabel14.UseStyleColors = true;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources.logo;
+            this.pictureBox1.Image = global::LimeLight_Gaming_Launcher.Properties.Resources.logo;
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
             this.pictureBox1.Location = new System.Drawing.Point(-2, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(295, 100);
+            this.pictureBox1.Size = new System.Drawing.Size(295, 96);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox5
+            // rockRPIMG
             // 
-            this.pictureBox5.Image = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources.addon_uploads_1400401314_625126589;
-            this.pictureBox5.Location = new System.Drawing.Point(312, 40);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(166, 156);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.rockRPIMG.ImageLocation = "";
+            this.rockRPIMG.Location = new System.Drawing.Point(70, 286);
+            this.rockRPIMG.Name = "rockRPIMG";
+            this.rockRPIMG.Size = new System.Drawing.Size(350, 20);
+            this.rockRPIMG.TabIndex = 6;
+            this.rockRPIMG.TabStop = false;
             // 
-            // pictureBox6
+            // discordIMG
             // 
-            this.pictureBox6.Image = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources.hero1;
-            this.pictureBox6.ImageLocation = "";
-            this.pictureBox6.Location = new System.Drawing.Point(-4, 23);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(700, 311);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 2;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.discordIMG.ImageLocation = "";
+            this.discordIMG.Location = new System.Drawing.Point(70, 286);
+            this.discordIMG.Name = "discordIMG";
+            this.discordIMG.Size = new System.Drawing.Size(350, 20);
+            this.discordIMG.TabIndex = 7;
+            this.discordIMG.TabStop = false;
             // 
-            // pictureBox3
+            // tsIMG
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.ErrorImage = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources._3796317_orig;
-            this.pictureBox3.Image = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources._3796317_orig;
-            this.pictureBox3.ImageLocation = "";
-            this.pictureBox3.InitialImage = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources._3796317_orig;
-            this.pictureBox3.Location = new System.Drawing.Point(312, 40);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(166, 156);
-            this.pictureBox3.TabIndex = 1;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(312, 40);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(166, 156);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 1;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::LimeLight_Gaming___Unofficial_Launcher.Properties.Resources.addon_uploads_1400401314_625126589;
-            this.pictureBox2.Location = new System.Drawing.Point(312, 40);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(166, 156);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.tsIMG.ImageLocation = "";
+            this.tsIMG.Location = new System.Drawing.Point(70, 286);
+            this.tsIMG.Name = "tsIMG";
+            this.tsIMG.Size = new System.Drawing.Size(350, 20);
+            this.tsIMG.TabIndex = 7;
+            this.tsIMG.TabStop = false;
             // 
             // Main
             // 
@@ -898,25 +983,29 @@
             this.metroTabPage3.ResumeLayout(false);
             this.metroPanel1.ResumeLayout(false);
             this.metroPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.metroTabPage4.ResumeLayout(false);
             this.server2panel.ResumeLayout(false);
             this.server2panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rockbuildIMG)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.serverPanel4.ResumeLayout(false);
+            this.serverPanel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.server3panel.ResumeLayout(false);
             this.server3panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.server1panel.ResumeLayout(false);
             this.server1panel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.metroTabPage5.ResumeLayout(false);
             this.metroTabPage5.PerformLayout();
             this.pnlScroll.ResumeLayout(false);
             this.pnlScroll.PerformLayout();
-            this.serverPanel4.ResumeLayout(false);
-            this.serverPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rockRPIMG)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.discordIMG)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tsIMG)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -936,7 +1025,6 @@
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroLabel metroLabel2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private MetroFramework.Controls.MetroLabel metroLabel1;
         private MetroFramework.Controls.MetroPanel server1panel;
         private MetroFramework.Controls.MetroPanel server2panel;
         private MetroFramework.Controls.MetroButton metroButton2;
@@ -963,13 +1051,19 @@
         private System.Windows.Forms.Panel pnlScroll;
         private System.Windows.Forms.Timer tmScroll;
         private MetroFramework.Controls.MetroLabel lblScroll;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private MetroFramework.Controls.MetroTile metroTile4;
         private MetroFramework.Controls.MetroPanel serverPanel4;
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroLabel metroLabel13;
         private MetroFramework.Controls.MetroLabel metroLabel14;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private MetroFramework.Controls.MetroLabel metroLabel15;
+        private MetroFramework.Controls.MetroLabel metroLabel16;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
+        private System.Windows.Forms.PictureBox rockbuildIMG;
+        private System.Windows.Forms.PictureBox rockRPIMG;
+        private System.Windows.Forms.PictureBox discordIMG;
+        private System.Windows.Forms.PictureBox tsIMG;
     }
 }
 

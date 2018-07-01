@@ -40,8 +40,8 @@ namespace LimeLight_Gaming___Unofficial_Launcher
         private void Form1_Load(object sender, EventArgs e)
         {
             msmMain.Theme = MetroFramework.MetroThemeStyle.Dark;
-            msmMain.Style = (MetroFramework.MetroColorStyle)7;
-            string currentversion = Properties.Settings.Default.version;
+            msmMain.Style = (MetroFramework.MetroColorStyle)3;
+            string currentversion = LimeLight_Gaming_Launcher.Properties.Settings.Default.version;
             System.Net.WebClient wc = new System.Net.WebClient();
             byte[] raw = wc.DownloadData("http://pastebin.com/raw/PZg7Jwm7");
            
@@ -67,10 +67,19 @@ namespace LimeLight_Gaming___Unofficial_Launcher
                     Environment.Exit(0);
 
                 }
-                
-                    
             }
 
+
+            serverstatsload();
+
+        }
+
+        private void serverstatsload()
+        {
+            rockbuildIMG.Load("https://limelightgaming.net/images/dynamic/generator.php?ip=51.254.57.133:27035&game=gmod");
+            rockRPIMG.Load("https://limelightgaming.net/images/dynamic/generator.php?ip=51.254.57.133:27030&game=gmod");
+            discordIMG.Load("https://limelightgaming.net/images/dynamic/generator.php?ip=discord.gg/ZnyeYe4&game=discord");
+            tsIMG.Load("https://limelightgaming.net/images/dynamic/generator.php?ip=51.254.57.133:9987&game=ts");
 
         }
 
@@ -153,7 +162,6 @@ namespace LimeLight_Gaming___Unofficial_Launcher
             server1panel.Hide();
             server3panel.Hide();
             serverPanel4.Hide();
-
         }
 
         private void metroTile3_Click(object sender, EventArgs e)
@@ -249,6 +257,22 @@ namespace LimeLight_Gaming___Unofficial_Launcher
                 lblScroll.Location = new Point(pnlScroll.Width - XCounter, lblScroll.Location.Y);
                 XCounter++;
             }
+
+            // Radio doesn't work anymore on the site anymore I think, kept the code just in-case it's brought back
+
+           // if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsBuffering)
+          //  {
+         //       metroLabel16.Text = "Status: Buffering";
+          //  }
+          //  else if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsPlaying)
+          //  {
+          //      metroLabel16.Text = "Status: Playing";
+          //  }
+          //  else if (axWindowsMediaPlayer1.playState == WMPLib.WMPPlayState.wmppsStopped)
+         //   {
+          //      metroLabel16.Text = "Status: Stopped";
+          //  }
+
         }
 
         private void Scrollbar()
@@ -278,6 +302,53 @@ namespace LimeLight_Gaming___Unofficial_Launcher
         private void metroButton3_Click(object sender, EventArgs e)
         {
             Process.Start("steam://connect/164.132.204.129:27016");
+        }
+
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void axWindowsMediaPlayer1_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void metroToggle1_CheckedChanged(object sender, EventArgs e)
+        {
+           // if (metroToggle1.Checked == true)
+          //  {
+           //     axWindowsMediaPlayer1.URL = @"http://51.254.200.243:8000/stream";
+          //  }
+           // else
+           // {
+           //     axWindowsMediaPlayer1.Ctlcontrols.stop();
+           // }
+        }
+
+        private void metroButton3_Click_1(object sender, EventArgs e)
+        {
+            Process.Start("https://discord.gg/ZnyeYe4");
+        }
+
+        private void metroLabel13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rockbuildIMG_Click(object sender, EventArgs e)
+        {
         }
     }
 }

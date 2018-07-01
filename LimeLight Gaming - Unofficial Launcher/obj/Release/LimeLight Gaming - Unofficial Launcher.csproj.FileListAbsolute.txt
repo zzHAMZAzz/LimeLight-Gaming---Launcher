@@ -10,3 +10,27 @@ C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unoffici
 C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight_Gaming___Unofficial_Launcher.Main.resources
 C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight_Gaming___Unofficial_Launcher.Properties.Resources.resources
 C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csproj.GenerateResource.Cache
+C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\Interop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\Interop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2015\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csproj.ResolveComReference.cache
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\LimeLight Gaming - Unofficial Launcher.exe.config
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\LimeLight Gaming - Unofficial Launcher.exe
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\LimeLight Gaming - Unofficial Launcher.pdb
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\Newtonsoft.Json.dll
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\Newtonsoft.Json.xml
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\Interop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\AxInterop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csprojResolveAssemblyReference.cache
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\Interop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\AxInterop.WMPLib.dll
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csproj.ResolveComReference.cache
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight_Gaming___Unofficial_Launcher.Main.resources
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight_Gaming___Unofficial_Launcher.Properties.Resources.resources
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csproj.GenerateResource.cache
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csproj.CoreCompileInputs.cache
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.csproj.CopyComplete
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.exe
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\obj\Release\LimeLight Gaming - Unofficial Launcher.pdb
+C:\Users\Hsk10\Documents\Visual Studio 2017\Projects\LimeLight Gaming - Unofficial Launcher\LimeLight Gaming - Unofficial Launcher\bin\Release\MetroFramework.dll
